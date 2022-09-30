@@ -1,4 +1,18 @@
 ## CUDA-Neural-Network
+A CUDA based neural network application that trains neural networks using only CUDA/C++ with no external libraries
+
+### Initialize GPU
+```
+int device = 0;
+CudaWrapper::setDevice(device);
+CudaWrapper::profileDevices();
+```
+
+### Loading Data
+```
+MatrixUtils::Matrix inputTrainData("TrainingData/CIFAR10_TrainInputs.csv");
+MatrixUtils::Matrix trainLabels("TrainingData/CIFAR10_TrainOutputs.csv");
+```
 
 ### Defining Network Topology
 ```

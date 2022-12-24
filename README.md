@@ -1,5 +1,5 @@
 ## CUDA-Neural-Network
-A CUDA based neural network application that trains neural networks using only CUDA/C++ with no external libraries
+A CUDA/C++ implementation of the [code](https://github.com/BrendanCReidy/Java-ML-Framework/blob/master) used in our [paper](https://ieeexplore.ieee.org/abstract/document/9516756). The program uses no additional libraries and is a *pure* CUDA/C++ implementation. This program adds support for full GPU utilization using specialized CUDA Kernels to perform DNN inference and back propogations. 
 
 ### Initialize GPU
 ```

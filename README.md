@@ -1,5 +1,5 @@
 ## CUDA-Neural-Network
-A CUDA/C++ implementation of the [code](https://github.com/BrendanCReidy/Java-ML-Framework/blob/master) used in our [paper](https://ieeexplore.ieee.org/abstract/document/9516756). The program uses *pure* CUDA/C++ (no additional libraries outside of minimum required to communicate with CUDA from C++). This program adds support for full GPU utilization using specialized CUDA Kernels to perform DNN inference and back propogations. 
+A CUDA/C++ implementation of the [code](https://github.com/BrendanCReidy/Java-ML-Framework/blob/master) used in our [paper](https://ieeexplore.ieee.org/abstract/document/9516756). The program uses *vanilla* CUDA/C++ (no additional libraries outside of minimum required to communicate with CUDA from C++). This program adds support for full GPU utilization using specialized CUDA Kernels to perform DNN inference and back propogations. 
 
 ### Initialize GPU
 ```
